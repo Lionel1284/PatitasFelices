@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alimento Premium para Perros | Patitas Felices</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
+        <h1>Patitas Felices</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Migas de pan -->
+    <div class="breadcrumb">
+      <a href="index.html">Inicio</a> > 
+      <a href="productos.html">Productos</a> > 
+      <span>Alimento Premium</span>
+    </div>
+
+    <div class="product-detail">
+      <div class="product-gallery">
+        <div class="main-image">
+          <img src="img/producto1.jpg" alt="Alimento Premium para Perros" id="mainProductImage">
+        </div>
+        <div class="thumbnail-images">
+          <div class="thumbnail active" data-image="img/producto1.jpg">
+            <img src="img/producto1.jpg" alt="Vista frontal">
+          </div>
+          <div class="thumbnail" data-image="img/producto1-2.jpg">
+            <img src="img/producto1-2.jpg" alt="Vista ingredientes">
+          </div>
+          <div class="thumbnail" data-image="img/producto1-3.jpg">
+            <img src="img/producto1-3.jpg" alt="Vista posterior">
+          </div>
+        </div>
+      </div>
+
+      <div class="product-info">
+        <h1>Alimento Premium para Perros</h1>
+        <div class="product-rating">
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span class="rating-value">4.5 (32 reseñas)</span>
+        </div>
+
+        <div class="product-price">
+          <span class="current-price">$15.000</span>
+          <span class="old-price">$20.000</span>
+          <span class="discount">13% OFF</span>
+        </div>
+
+        <div class="product-description">
+          <p>Nutrición balanceada de alta calidad para perros adultos de todas las razas. Formulado con ingredientes naturales, vitaminas y minerales esenciales para mantener a tu mascota saludable y llena de energía.</p>
+          
+          <div class="product-features">
+            <h3>Características principales:</h3>
+            <ul>
+              <li><i class="fas fa-check"></i> Rico en proteínas de alta calidad</li>
+              <li><i class="fas fa-check"></i> Omega 3 y 6 para piel y pelaje saludables</li>
+              <li><i class="fas fa-check"></i> Prebióticos para una digestión óptima</li>
+              <li><i class="fas fa-check"></i> Sin colorantes ni conservantes artificiales</li>
+              <li><i class="fas fa-check"></i> Antioxidantes para fortalecer el sistema inmunológico</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="product-specs">
+          <h3>Especificaciones:</h3>
+          <div class="specs-grid">
+            <div class="spec-item">
+              <span class="spec-label">Peso:</span>
+              <span class="spec-value">15 kg</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Edad:</span>
+              <span class="spec-value">Adultos (1-7 años)</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Sabor:</span>
+              <span class="spec-value">Pollo y vegetales</span>
+            </div>
+            <div class="spec-item">
+              <span class="spec-label">Disponibilidad:</span>
+              <span class="spec-value in-stock">En stock</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-actions">
+          <div class="quantity-selector">
+            <button class="qty-btn" id="decreaseQty">-</button>
+            <input type="number" id="productQty" value="1" min="1" max="10">
+            <button class="qty-btn" id="increaseQty">+</button>
+          </div>
+
+          <button class="btn btn-primary add-to-cart">
+            <i class="fas fa-shopping-cart"></i> Añadir al carrito
+          </button>
+
+          <button class="btn btn-secondary">
+            <i class="fas fa-heart"></i> Guardar
+          </button>
+        </div>
+
+        <div class="product-delivery">
+          <div class="delivery-option">
+            <i class="fas fa-truck"></i>
+            <div>
+              <strong>Envío gratis</strong> en compras superiores a $5000
+            </div>
+          </div>
+          <div class="delivery-option">
+            <i class="fas fa-store"></i>
+            <div>
+              <strong>Recoge en tienda</strong> disponible
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Productos relacionados -->
+    <section class="related-products">
+      <h2>Productos relacionados</h2>
+      <div class="cards">
+        <div class="card">
+          <div class="card-image">
+            <img src="img/producto5.jpg" alt="Snacks">
+          </div>
+          <div class="card-content">
+            <h3>Snacks Saludables</h3>
+            <p>Premios deliciosos y nutritivos para el entrenamiento.</p>
+            <div class="product-price">$4.000 - $6.000</div>
+            <a href="detalle-producto.html" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="img/producto4.jpg" alt="Suplementos">
+          </div>
+          <div class="card-content">
+            <h3>Vitaminas y Suplementos</h3>
+            <p>Complementos nutricionales para la salud de tu mascota.</p>
+            <div class="product-price">$15.000 - $28.000</div>
+            <a href="detalle-producto.html" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-image">
+            <img src="img/producto6.jpg" alt="Camas">
+          </div>
+          <div class="card-content">
+            <h3>Camas y Cobijas</h3>
+            <p>Lugar cómodo y acogedor para el descanso de tu mascota.</p>
+            <div class="product-price">$12.000 - $16.990</div>
+            <a href="detalle-producto.html" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <img src="img/logo.png" alt="Logo Veterinaria">
+            <h3>Patitas Felices</h3>
+          </div>
+          <p>Tu clínica veterinaria de confianza donde las mascotas reciben el mejor cuidado y atención.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Enlaces rápidos</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Horario de atención</h4>
+          <p>Lunes a Viernes: 9:00 - 19:00</p>
+          <p>Sábados: 10:00 - 14:00</p>
+          <p>Urgencias: 24/7</p>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Av. Principal #123, Ciudad</p>
+          <p><i class="fas fa-phone"></i> +56 9 7545 9443</p>
+          <p><i class="fas fa-envelope"></i> info@patitasfelices.com</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Clínica Veterinaria Patitas Felices | Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/detalle-producto.js"></script>
+</body>
+</html>

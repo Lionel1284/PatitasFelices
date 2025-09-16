@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Productos | Patitas Felices</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <div class="logo">
+        <img src="img/logo.png" alt="Logo">
+        <h1>Patitas Felices</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="productos.html" class="activo">Productos</a></li>
+          <li><a href="novedades.html">Novedades</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="contenido">
+    <div class="container">
+      <h2>Productos Disponibles</h2>
+      
+      <div class="product-filters">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="alimentos">Alimentos</button>
+        <button class="filter-btn" data-filter="accesorios">Accesorios</button>
+        <button class="filter-btn" data-filter="juguetes">Juguetes</button>
+        <button class="filter-btn" data-filter="farmacia">Farmacia</button>
+      </div>
+      
+      <div class="cards">
+        <div class="card" data-category="alimentos">
+          <div class="card-image">
+            <img src="img/producto1.jpg" alt="Alimento">
+          </div>
+          <div class="card-content">
+            <h3>Alimento Premium</h3>
+            <p>Nutrición balanceada para perros y gatos.</p>
+            <div class="product-price">$15.000</div>
+            <a href="detalle-producto.html?producto=alimento-premium" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card" data-category="accesorios">
+          <div class="card-image">
+            <img src="img/producto2.jpg" alt="Accesorios">
+          </div>
+          <div class="card-content">
+            <h3>Collares y Correas</h3>
+            <p>Variedad de estilos y tamaños.</p>
+            <div class="product-price">$4.000 - $9.000</div>
+            <a href="detalle-producto.html?producto=collares-correas" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card" data-category="juguetes">
+          <div class="card-image">
+            <img src="img/producto3.jpg" alt="Juguetes">
+          </div>
+          <div class="card-content">
+            <h3>Juguetes Interactivos</h3>
+            <p>Para mantener a tu mascota activa y feliz.</p>
+            <div class="product-price">$3.000 - $8.000</div>
+            <a href="detalle-producto.html?producto=juguetes-interactivos" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card" data-category="farmacia">
+          <div class="card-image">
+            <img src="img/producto4.jpg" alt="Productos farmacéuticos">
+          </div>
+          <div class="card-content">
+            <h3>Vitaminas y Suplementos</h3>
+            <p>Complementos nutricionales para la salud de tu mascota.</p>
+            <div class="product-price">$15.000 - $28.000</div>
+            <a href="detalle-producto.html?producto=vitaminas-suplementos" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card" data-category="alimentos">
+          <div class="card-image">
+            <img src="img/producto5.jpg" alt="Snacks">
+          </div>
+          <div class="card-content">
+            <h3>Snacks Saludables</h3>
+            <p>Premios deliciosos y nutritivos para el entrenamiento.</p>
+            <div class="product-price">$4.000 - $6.000</div>
+            <a href="detalle-producto.html?producto=snacks-saludables" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="card" data-category="accesorios">
+          <div class="card-image">
+            <img src="img/producto6.jpg" alt="Camas">
+          </div>
+          <div class="card-content">
+            <h3>Camas y Cobijas</h3>
+            <p>Lugar cómodo y acogedor para el descanso de tu mascota.</p>
+            <div class="product-price">$12.000 - $16.990</div>
+            <a href="detalle-producto.html?producto=camas-cobijas" class="card-link">Ver detalles <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="logo">
+            <img src="img/logo.png" alt="Logo Veterinaria">
+            <h3>Patitas Felices</h3>
+          </div>
+          <p>Tu clínica veterinaria de confianza donde las mascotas reciben el mejor cuidado y atención.</p>
+        </div>
+        <div class="footer-section">
+          <h4>Enlaces rápidos</h4>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="servicios.html">Servicios</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Horario de atención</h4>
+          <p>Lunes a Viernes: 9:00 - 19:00</p>
+          <p>Sábados: 10:00 - 14:00</p>
+          <p>Urgencias: 24/7</p>
+        </div>
+        <div class="footer-section">
+          <h4>Contacto</h4>
+          <p><i class="fas fa-map-marker-alt"></i> Av. Principal #123, Ciudad</p>
+          <p><i class="fas fa-phone"></i> +56 9 7545 9443</p>
+          <p><i class="fas fa-envelope"></i> info@patitasfelices.com</p>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Clínica Veterinaria Patitas Felices | Todos los derechos reservados</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
